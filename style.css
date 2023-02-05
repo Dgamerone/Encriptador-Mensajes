@@ -1,0 +1,226 @@
+body {
+  background: rgb(0, 0, 0);
+  font-family: "Courier Prime", monospace;
+}
+
+header {
+  text-align: center;
+  color: darkgrey;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 20px;
+}
+
+.container {
+  margin: auto;
+  width: 960px;
+  height: 650px;
+  padding: 20px;
+  background: rgb(215, 215, 215);
+  border-radius: 25px;
+}
+
+.logo {
+  width: 100%;
+  float: left;
+}
+
+.left {
+  width: 70%;
+  height: 70%;
+  float: left;
+  border-radius: 20px;
+  /* background: red; */
+}
+
+.right {
+  width: 30%;
+  height: auto;
+  float: right;
+  border-radius: 20px;
+  background: rgb(255, 255, 255);
+}
+
+.left-button {
+  float: left;
+  width: 70%;
+  height: auto;
+  border-radius: 25px;
+  cursor: hand;
+}
+
+.left-button p {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 1%;
+  padding-bottom: 20px;
+  color: darkred;
+}
+
+.right-button {
+  float: right;
+  width: 30%;
+  height: auto;
+  border-radius: 25px;
+  background: white;
+}
+
+.logo-img {
+  margin-top: 1%;
+  margin-left: 5%;
+  float: inherit;
+}
+
+.title-logo {
+  display: flex;
+  align-content: stretch;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10%;
+  padding: 20px;
+}
+
+.title-logo {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.text-input {
+  float: left;
+  margin-top: 10%;
+  margin-left: 10%;
+  width: 80%;
+  height: 60%;
+  padding-top: 20px;
+  border-radius: 25px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  outline: none;
+  background: white;
+  transition: 0.5s;
+  opacity: 50%;
+}
+
+.text-input:hover {
+  opacity: 100%;
+  box-shadow: 5px 5px 30px rgb(120, 120, 120);
+}
+
+.img-right {
+  margin-top: 10%;
+  margin-left: 3%;
+  width: 90%;
+  height: auto;
+}
+
+
+.right-text {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.right-text {
+  font-size: 20px;
+  font-weight: 550;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#right-text-2 {
+  float: left;
+  margin-left: 10%;
+  width: 80%;
+  height: 60%;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+
+textarea {
+  margin-top: 2%;
+  padding: auto;
+  resize: none;
+}
+
+/* Botones */
+
+.btn-encriptar {
+  padding: 15px;
+  width: 30%;
+  height: 60%;
+  border-radius: 25px;
+  margin-left: 15%;
+  background: rgb(0, 73, 124);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn-encriptar:hover {
+  background: black;
+  transform: scale(1.1);
+}
+
+.btn-desencriptar {
+  padding: 15px;
+  width: 30%;
+  height: 60%;
+  margin-bottom: 1%;
+  border-radius: 25px;
+  margin-left: 15%;
+  background: black;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn-desencriptar:hover {
+  background: rgb(0, 73, 124);
+  transform: scale(1.1);
+  border: none;
+}
+
+.btn-copy {
+  margin-left: 33%;
+  margin-top: 90%;
+  margin-bottom: 1%;
+  padding: 10px;
+  width: 40%;
+  height: 10%;
+  background: rgb(0, 73, 124);
+  color: white;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  display: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn-copy:hover {
+  background: black;
+  transform: scale(1.1);
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  align-content: stretch;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+}
+
+.footer p {
+  color: darkgrey;
+}

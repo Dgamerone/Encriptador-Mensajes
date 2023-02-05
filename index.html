@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+    <title>Encriptador</title>
+  </head>
+  <body>
+    <header>
+      <h1>Solo un agente autorizado como tú, puede realizar esta operación.</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="logo">
+          <img class="logo-img" src="img/Logo.png" alt="Logo" />
+          <h1 class="title-logo">Encriptador de Mensajes</h1>
+        </div>
+
+        <div class="left">
+          <textarea
+            name="ingresar texto"
+            class="text-input"
+            id="text-input"
+            cols="30"
+            rows="50"
+            placeholder="Ingrese el texto aquí"
+          ></textarea>
+        </div>
+
+        <div class="right">
+          <img
+            class="img-right"
+            id="img-right"
+            src="img/Muñeco.png"
+            alt="Texto Encriptado"
+          />
+          <h3 class="right-text" id="right-text">
+            No se a encontrado ningun mensaje.
+          </h3>
+          <textarea
+            name=""
+            id="right-text-2"
+            cols="30"
+            rows="10"
+            placeholder="Ingresar el texto a encriptar o desencriptar."
+          ></textarea>
+          <button
+            class="btn-copy"
+            id="copiar"
+            type="button"
+            name="copy-button"
+            onclick="copiar()"
+          >
+            COPIAR
+          </button>
+        </div>
+
+        <div class="left-button">
+          <p>* Solo minusculas y sin acentos.</p>
+          <button
+            class="btn-encriptar"
+            id="btn-encriptar"
+            type="button"
+            onclick="encriptar()"
+          >
+            ENCRIPTAR
+          </button>
+          <button
+            class="btn-desencriptar"
+            id="btn-desencriptar"
+            type="button"
+            onclick="desencriptar()"
+          >
+            DESENCRIPTAR
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <p>Douglas Granado &copy</p>
+        <p>Alura One Next - 2023</p>
+      </div>
+    </footer>
+  </body>
+</html>
